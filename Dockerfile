@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM frolvlad/alpine-oraclejdk8:slim
 VOLUME /tmp
 ADD bookmark-app.jar bookmark-app.jar
 RUN bash -c 'touch /bookmark-app.jar'
