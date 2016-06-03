@@ -1,5 +1,4 @@
 FROM java:8-jre
-FROM maven:3.3-jdk-8
 VOLUME /tmp
 ADD bookmark-app.jar bookmark-app.jar
 RUN bash -c 'touch /bookmark-app.jar'
