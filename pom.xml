@@ -50,7 +50,7 @@
 				<configuration>
 					<imageName>kranthi009/${project.artifactId}</imageName>
 					<imageTags><imageTag>execjar</imageTag></imageTags>
-					<dockerDirectory>src/main/docker</dockerDirectory>
+					<dockerDirectory>/</dockerDirectory>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
