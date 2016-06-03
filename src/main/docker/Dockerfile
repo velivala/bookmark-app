@@ -1,5 +1,6 @@
 FROM java:8-jre
 VOLUME /tmp
+RUN mvn package docker:build -DskipTests
 ADD bookmark-app.jar bookmark-app.jar
 RUN bash -c 'touch /bookmark-app.jar'
 EXPOSE 8080
